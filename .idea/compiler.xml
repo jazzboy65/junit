@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="G-Unit" />
-        <module name="junit" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="G-Unit" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
